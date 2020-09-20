@@ -29,13 +29,31 @@ a {
 	text-decoration: none;
 }
 
+ .home{
+	color: var(--light-color);
+	text-align: right;
+} 
+
+.homebtn{
+	height: 40px;
+	align-items: right;
+	text-align: right;
+}
+
+#logo{
+	
+}
+
 .btn {
 	cursor: pointer;
 	padding: 5px 15px;
-	background: var(--light-color);
-	color: var(--dark-color-a);
+	background: var(--dark-color-a);
+	color: var(--light-color);
+	font-family: "Poppins",sans-serif;
 	border: 0;
-	font-size: 17px;
+	font-size: 20px;
+	border-radius: 49px;
+	font-weight: 500;
 }
 
 /* Chat Page */
@@ -139,6 +157,10 @@ a {
 	background: var(--dark-color-a);
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
+}
+
+#title{
+	text-align: center;
 }
 
 .join-main {
