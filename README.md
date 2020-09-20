@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Aagam-Jain-113/AidZee/blob/master/static/assets/Logo.png" width="200" height="200"/>
+  <a href="https://aidzee.netlify.app/"><img src="https://github.com/Aagam-Jain-113/AidZee/blob/master/static/assets/Logo.png" width="200" height="200"/></a>
 </p>
 
 ## Main Project: https://github.com/thesauravkarmakar/AidZee
@@ -7,7 +7,7 @@
 <p align="center">
     <br>
     <br>
-    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Netlify Status"></a>
+    <a href="https://aidzeecord.herokuapp.com/"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </p>
 
 ## :pushpin: About AidZeeCord 
