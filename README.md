@@ -4,13 +4,22 @@
 
 ## Main Project: https://github.com/thesauravkarmakar/AidZee
 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+<p align="center">
+    <br>
+    <br>
+    <img src="https://www.herokucdn.com/deploy/button.svg" alt="Netlify Status"></a>
+</p>
 
 ## :pushpin: About AidZeeCord 
 In this project, we bring everyone around you closer, virtually by creating a place where anyone can post about anything, and people around you will connect.
 If you want some help and are in a hurry, don't look here and there. Look for our AidZee Gang and head over to our AidZeeCord (Chat), and available members will help you. 
 So, feeling lonely and want someone to talk or need some help. Hit up, AidZee!
+
+## :film_projector: Demo
+
+<p align="center">
+<img src="https://github.com/thesauravkarmakar/AidZeeCord/blob/master/assets/demo.gif" alt="Demo">
+</p>
 
 ## :couple: Want to visit the Chat app?
 
