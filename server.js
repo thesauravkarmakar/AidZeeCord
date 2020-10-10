@@ -8,7 +8,10 @@ const {
     getCurrentUser,
     userLeave,
     getRoomUsers
-  } = require('./utils/users');
+} = require('./utils/users');
+const db = require('./utils/db');
+const firestore = db.firestore();
+const collectionName = 'chats';
 
 
 const app = express();
@@ -34,13 +37,21 @@ io.on('connection', socket => {
         io.to(user.room).emit('roomUsers', {
             room: user.room,
             users: getRoomUsers(user.room)
-          });
+        });
 
     });
 
 
     socket.on('chatMessage', msg => {
         const user = getCurrentUser(socket.id);
+        const payloadChat = {
+            username: user.username,
+            message: msg,
+            room: user.room,
+            created_at: new Date()
+        }
+
+        firestore.collection(collectionName).add(payloadChat);
         io.to(user.room).emit('message', formatMessage(user.username, msg));
     });
 
