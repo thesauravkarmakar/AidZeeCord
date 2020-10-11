@@ -23,7 +23,7 @@ So, feeling lonely and want someone to talk or need some help. Hit up, AidZee!
 
 ## :couple: Want to visit the Chat app?
 
-Here,https://aidzeecord.herokuapp.com/ or watch [Demo Video](https://youtu.be/nTIumXl3_Xo) 
+Here,https://aidzeecord.herokuapp.com/ or watch [Demo Video](https://youtu.be/ndR8ldQaAmA) 
 
 ## :man_technologist: Technology Stack
 
@@ -44,6 +44,11 @@ Here,https://aidzeecord.herokuapp.com/ or watch [Demo Video](https://youtu.be/nT
 <p float="left">
   <img src="https://cdn.worldvectorlogo.com/logos/jquery-1.svg" width="64" height="64" style="width:100%">
   <img src="https://cdn.worldvectorlogo.com/logos/express-109.svg"  width="64" height="64" style="width:100%">
+</p>
+
+### Database
+<p float="left">
+  <img src="https://cdn.worldvectorlogo.com/logos/firebase-2.svg" width="64" height="64" style="width:100%">
 </p>
 
 ## :man_in_tuxedo: Author
